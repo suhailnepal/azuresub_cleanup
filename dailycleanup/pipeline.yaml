@@ -29,5 +29,5 @@ steps:
     azureSubscription: $(service_connection)
     scriptType: 'bash'
     scriptLocation: 'scriptPath'
-    scriptPath: 'script.sh'
+    scriptPath: 'cleanup.sh'
     addSpnToEnvironment: true
